@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="testngFeature.DemoAssertEquals"/>
+      <class name="testngFeature.DemoAssertion"/>
+      <class name="testngFeature.DemoDataProvider"/>
+      <class name="testngFeature.DemodependaOn"/>
+      <class name="testngFeature.DemoSoftAssert"/>
+      <class name="testngFeature.DemoTestngSeq"/>
+      <class name="testngFeature.DemoVerify"/>
+      <class name="testngFeature.MercuryTravel"/>
+       <class name="testngFeature.MultipleBrowserTest"/>
+        <class name="testngFeature.NewTest"/>
+        <class name="testngFeature.OpenGoogle"/>      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

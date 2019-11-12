@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="67579" started-at="2019-11-06T10:51:25Z" finished-at="2019-11-06T10:52:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="67579" started-at="2019-11-06T10:51:25Z" finished-at="2019-11-06T10:52:33Z">
+      <class name="PageObjectModel.DemotestDay3">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:PageObjectModel.DemotestDay3@224edc67]" name="beforeTest" is-config="true" duration-ms="10030" started-at="2019-11-06T10:51:25Z" finished-at="2019-11-06T10:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:PageObjectModel.DemotestDay3@224edc67]" name="f" duration-ms="57509" started-at="2019-11-06T10:51:35Z" finished-at="2019-11-06T10:52:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- PageObjectModel.DemotestDay3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

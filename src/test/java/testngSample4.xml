@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test1">
+    <classes>
+      <class name="testngFeature.MercuryTravel"/>
+      <methods>
+      <include name="OpenBrowser"></include>
+      </methods>
+      
+      <methods>
+      <exclude name="BookFlight"></exclude>
+      </methods>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

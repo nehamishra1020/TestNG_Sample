@@ -1,0 +1,71 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 35, Failures: 1, Errors: 0, Skipped: 34, Time elapsed: 9.257 s <<< FAILURE! - in TestSuite
+beforeTest(testngFeature.OpenGoogle)  Time elapsed: 8.623 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=78.0.3904.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P3ALAP-G01FTQF', ip: '10.222.162.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x002AA903+1550595]
+	Ordinal0 [0x0022A701+1025793]
+	Ordinal0 [0x001AC6E5+509669]
+	Ordinal0 [0x001A5229+479785]
+	Ordinal0 [0x001A4DFA+478714]
+	Ordinal0 [0x001A4878+477304]
+	Ordinal0 [0x001A3FEA+475114]
+	Ordinal0 [0x001A4105+475397]
+	Ordinal0 [0x001A3BB5+474037]
+	Ordinal0 [0x001AB445+504901]
+	Ordinal0 [0x001A3B68+473960]
+	Ordinal0 [0x001A451B+476443]
+	Ordinal0 [0x001A3FEA+475114]
+	Ordinal0 [0x001A4105+475397]
+	Ordinal0 [0x001A3BB5+474037]
+	Ordinal0 [0x001A9D8E+499086]
+	Ordinal0 [0x001A3B68+473960]
+	Ordinal0 [0x001A451B+476443]
+	Ordinal0 [0x001A3FEA+475114]
+	Ordinal0 [0x001A4105+475397]
+	Ordinal0 [0x001A3BB5+474037]
+	Ordinal0 [0x001A860D+493069]
+	Ordinal0 [0x001A3B68+473960]
+	Ordinal0 [0x001A451B+476443]
+	Ordinal0 [0x001A3FEA+475114]
+	Ordinal0 [0x001A4105+475397]
+	Ordinal0 [0x001A3BB5+474037]
+	Ordinal0 [0x001A7CC7+490695]
+	Ordinal0 [0x001A3B68+473960]
+	Ordinal0 [0x001A451B+476443]
+	Ordinal0 [0x001A3FEA+475114]
+	Ordinal0 [0x001A4105+475397]
+	Ordinal0 [0x001A3BB5+474037]
+	Ordinal0 [0x001A07AC+460716]
+	Ordinal0 [0x001A3B68+473960]
+	Ordinal0 [0x001A3A44+473668]
+	Ordinal0 [0x001AD330+512816]
+	Ordinal0 [0x0015B649+177737]
+	Ordinal0 [0x0015A8ED+174317]
+	Ordinal0 [0x00158CDB+167131]
+	Ordinal0 [0x0014144A+70730]
+	Ordinal0 [0x001424D0+74960]
+	Ordinal0 [0x00142469+74857]
+	Ordinal0 [0x002442C7+1131207]
+	GetHandleVerifier [0x003470FD+523789]
+	GetHandleVerifier [0x00346E90+523168]
+	GetHandleVerifier [0x0034E1E7+552695]
+	GetHandleVerifier [0x003478FA+525834]
+	Ordinal0 [0x0023B7FC+1095676]
+	Ordinal0 [0x0024633B+1139515]
+	Ordinal0 [0x002464A3+1139875]
+	Ordinal0 [0x00245425+1135653]
+	BaseThreadInitThunk [0x753C0419+25]
+	RtlGetAppContainerNamedObjectPath [0x777C662D+237]
+	RtlGetAppContainerNamedObjectPath [0x777C65FD+189]
+
+	at testngFeature.OpenGoogle.beforeTest(OpenGoogle.java:22)
+
