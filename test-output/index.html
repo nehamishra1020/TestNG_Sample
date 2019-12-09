@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\n.e.mishra\AppData\Local\Temp\testng-eclipse-981264544\testng-customsuite.xml</span>
+                    <span>C:\Users\n.e.mishra\AppData\Local\Temp\testng-eclipse-308804666\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="PageObjectModel.DemotestDay3" hash-for-method="f">f</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testngFeature.DemoDataProvider" hash-for-method="login(mercury, test)">login(mercury, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testngFeature.DemoDataProvider" hash-for-method="login(neha, bajpai)">login(neha, bajpai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testngFeature.DemoDataProvider" hash-for-method="login(selenium, basic)">login(selenium, basic)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +130,31 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">PageObjectModel.DemotestDay3</span>
+              <span class="class-name">testngFeature.DemoDataProvider</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
+                  <a name="login(mercury, test)">
+                  </a> <!-- login(mercury, test) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(mercury, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(neha, bajpai)">
+                  </a> <!-- login(neha, bajpai) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(neha, bajpai)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(selenium, basic)">
+                  </a> <!-- login(selenium, basic) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(selenium, basic)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +162,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\n.e.mishra\AppData\Local\Temp\testng-eclipse-981264544\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\n.e.mishra\AppData\Local\Temp\testng-eclipse-308804666\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +171,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;PageObjectModel.DemotestDay3&quot;/&gt;
+      &lt;class name=&quot;testngFeature.DemoDataProvider&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -184,16 +211,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'f')
-data.setCell(0, 2, 'PageObjectModel.DemotestDay3')
-data.setCell(0, 3, 57509);
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'testngFeature.DemoDataProvider')
+data.setCell(0, 3, 11);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'testngFeature.DemoDataProvider')
+data.setCell(1, 3, 2);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'login')
+data.setCell(2, 2, 'testngFeature.DemoDataProvider')
+data.setCell(2, 3, 2);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 57 seconds</span>
+              <span class="suite-total-time">Total running time: 15 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -219,14 +254,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">PageObjectModel.DemotestDay3</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              <div class="chronological-class-name">testngFeature.DemoDataProvider</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">f</span>
-                <span class="method-start">10062 ms</span>
+                <span class="method-name">login(selenium, basic)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(mercury, test)</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(neha, bajpai)</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

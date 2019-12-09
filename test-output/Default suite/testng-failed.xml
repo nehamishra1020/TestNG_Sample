@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PageObjectModel.DemotestDay3">
+      <class name="testngFeature.DemoAssertion">
         <methods>
-          <include name="f"/>
-          <include name="beforeTest"/>
+          <include name="test3"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- PageObjectModel.DemotestDay3 -->
+      </class> <!-- testngFeature.DemoAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
